@@ -1,3 +1,4 @@
+vim.g.mapleader = " "
 -- ~/.local/share/nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
@@ -15,7 +16,9 @@ require("lazy").setup({
     notify = true
   },
   spec = {
-    { import = "plugins" }
+    -- import/override with your plugins
+    { import = "plugins" },
+
   },
 })
 require("autocommands")

@@ -11,6 +11,9 @@ vim.o.cursorline = true
 vim.o.dictionary = "/usr/share/dict/words"
 vim.o.expandtab = true
 vim.o.foldcolumn = "1"
+vim.o.lazyredraw = false
+vim.wo.relativenumber = true
+vim.o.hlsearch = false
 -- DISABLED FOLDING AS IT JUST WASNT USEFUL
 -- vim.o.foldmethod = "indent"                                                                                           -- za to toggle all levels of current fold, zo/zc to open/close current fold, zR to open all folds, zM to close all folds
 vim.o.grepprg =

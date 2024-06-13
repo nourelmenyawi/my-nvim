@@ -20,9 +20,6 @@ return {
       local lint = require("lint")
 
       lint.linters_by_ft = {
-        -- https://github.com/codespell-project/codespell
-        -- https://golangci-lint.run/
-        go = { "codespell", "golangcilint" },
         -- https://htmlhint.com/
         -- https://www.html-tidy.org/
         html = { "htmlhint", "tidy" },

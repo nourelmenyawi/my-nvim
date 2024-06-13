@@ -38,3 +38,6 @@ function ExtractMessages(split)
 end
 
 -- vim.cmd("command! -nargs=? Messages lua ExtractMessages(<q-args>)")
+
+-- ReloadConfig to reload Nvim
+vim.api.nvim_create_user_command('ReloadConfig', 'source $MYVIMRC', {})

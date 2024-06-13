@@ -168,18 +168,18 @@ return {
     -- end,
     -- dependencies = {"MunifTanjim/nui.nvim", "rcarriga/nvim-notify"}
   },
-  {
-    -- TAB UI IMPROVEMENTS
-    "akinsho/bufferline.nvim",
-    version = "*",
-    dependencies = 'nvim-tree/nvim-web-devicons',
-    config = function()
-      require("bufferline").setup({
-        options = { mode = "tabs" },
-        highlights = { tab = { fg = "#CCCCCC" } }
-      })
-    end
-  },
+  -- {
+  --   -- TAB UI IMPROVEMENTS
+  --   "akinsho/bufferline.nvim",
+  --   version = "v3.*",
+  --   dependencies = 'nvim-tree/nvim-web-devicons',
+  --   config = function()
+  --     require("bufferline").setup({
+  --       options = { mode = "tabs" },
+  --       highlights = { tab = { fg = "#CCCCCC" } }
+  --     })
+  --   end
+  -- },
   {
     -- FZF USED BY BETTER-QUICKFIX PLUGIN
     "junegunn/fzf",
